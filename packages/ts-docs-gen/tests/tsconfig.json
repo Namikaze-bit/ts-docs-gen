@@ -1,0 +1,35 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es6",
+        "removeComments": false,
+        "sourceMap": false,
+        "skipDefaultLibCheck": true,
+        "pretty": true,
+        "noEmit": true,
+        "experimentalDecorators": false,
+        "baseUrl": "./",
+        "typeRoots": [
+            "../"
+        ],
+        "types": [
+            "jest",
+            "typescript",
+            "node"
+        ],
+        "lib": [
+            "es6",
+            "es2017.object",
+            "dom"
+        ],
+        "paths": {
+            "@src/*": [
+                "../src/*"
+            ]
+        },
+        "rootDirs": [
+            "./",
+            "../src"
+        ]
+    }
+}
